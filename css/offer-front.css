@@ -1,0 +1,19 @@
+.offer-bar {background:#fff; font-size: 25px; box-shadow: inset 0 -18px 20px -22px rgba(0, 0, 0, 0.5); color:#000; position: fixed; top: 0; left: 0; width: 100%; box-sizing: border-box; z-index: 999999; }
+.offer-wrapper {position: relative; display: block;}
+#slideup {position:fixed; cursor:pointer; padding:10px; background: #dd6149; width: 100px; padding: 8px 10px; color: #FFF; line-height:0; font-size:12px; font-weight: 800; text-align:center; -webkit-font-smoothing: antialiased; cursor: pointer; top: 0; right: 0; z-index: 9999999;border-radius: 0 0 80px 80px; margin: 0 auto; left: 0;}
+#slidedown {position:fixed; cursor:pointer; display: none; padding:10px; background: #26ae90; width: 100px; padding: 8px 10px; color: #FFF; line-height:0; font-size:12px; font-weight: 800; text-align:center; -webkit-font-smoothing: antialiased; cursor: pointer; top: 0; right: 0; z-index: 9999999;border-radius: 0 0 80px 80px; margin: 0 auto; left: 0;}
+.offer-code{display: inline-block; width: 60%;}
+.offer-timer{ float: right; width: 40%;}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+	.ClassyCountdown-wrapper > div{margin: 0 10px;}
+	.offer-timer{ text-align: center;}	
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	.offer-code{display: inline-block; width: 100%;}
+	.offer-timer{ float: left; width: 100%; text-align: center;}
+	.ClassyCountdown-wrapper > div{margin: 0 15px 35px 15px;}
+}
+@media (min-width : 500px) and (max-width : 766px) {
+	.ClassyCountdown-wrapper > div{margin: 0 5px;}
+}
